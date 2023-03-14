@@ -11,7 +11,7 @@ pipeline {
                 // Get code from a GitHub repository
                 // Make sure to add your own git url and credentialsId
 				git url: 'https://github.com/kautukraj/SPE-mini-project.git',
-				branch: 'main',
+				branch: 'master',
                 credentialsId: 'GitCredential'
             }
         }
