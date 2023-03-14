@@ -20,7 +20,7 @@ public class Calculatortest
     public void multiplicationFalsePositive()
     {
         assertNotEquals("Finding multiplication of two number for False Positive", 120, calculator.multiplication(5, 7), DELTA);
-        assertNotEquals("Finding multiplication of two number for False Positive", 80, calculator.multiplication(4, 11), DELTA);
+        assertNotEquals("Finding multiplication of two number for False Positive", 70, calculator.multiplication(4, 11), DELTA);
     }
 
     @Test
