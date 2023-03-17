@@ -36,6 +36,10 @@ public class Calculator
 
             switch (choice)
             {
+                case 0: 
+                    System.out.println(Welcome to the calculator!\n");
+                    break;
+                    
                 case 1:
                     // do Multiplication
                     System.out.print("Enter the first number : ");
