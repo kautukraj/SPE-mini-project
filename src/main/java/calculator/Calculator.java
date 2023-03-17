@@ -37,7 +37,7 @@ public class Calculator
             switch (choice)
             {
                 case 0: 
-                    System.out.println(Welcome to the calculator!\n");
+                    System.out.println("Welcome to the calculator!");
                     break;
                     
                 case 1:
