@@ -19,13 +19,8 @@ public class Calculatortest
     @Test
     public void powerFalsePositive()
     {
-<<<<<<< HEAD
         assertNotEquals("Finding power of two numbers for False Positive", 120, calculator.power(5, 7), DELTA);
         assertNotEquals("Finding power of two numbers for False Positive", 80, calculator.power(4, 11), DELTA);
-=======
-        assertNotEquals("Finding multiplication of two number for False Positive", 120, calculator.multiplication(5, 7), DELTA);
-        assertNotEquals("Finding multiplication of two number for False Positive", 70, calculator.multiplication(4, 11), DELTA);
->>>>>>> origin/master
     }
 
     @Test
