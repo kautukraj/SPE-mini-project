@@ -6,7 +6,7 @@ pipeline {
 	agent any
 
     stages {
-        stage('Git Pull') {
+        /*stage('Git Pull') {
             steps {
                 // Get code from a GitHub repository
                 // Make sure to add your own git url and credentialsId
@@ -14,7 +14,7 @@ pipeline {
 				branch: 'master',
                 credentialsId: 'GitCredential'
             }
-        }
+        }*/
         stage('Maven Build') {
             steps {
                 // Maven build, 'sh' specifies it is a shell command
